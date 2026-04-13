@@ -468,7 +468,6 @@ def report_to_pdf_bytes(report: dict) -> bytes:
     GREEN  = (63,  185,  80)
     RED    = (248,  81,  73)
     GOLD   = (227, 179,  65)
-    _WHITE  = (255, 255, 255)  # reserved
 
     # ── Setup ──────────────────────────────────────────────────────────────────
     pdf = FPDF()
