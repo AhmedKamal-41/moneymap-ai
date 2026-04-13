@@ -1,10 +1,13 @@
 # 🧭 MoneyMap AI — Next Dollar Allocation Advisor
 
 [![CI](https://github.com/AhmedKamal-41/moneymap-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/AhmedKamal-41/moneymap-ai/actions/workflows/ci.yml)
+[![Live app](https://img.shields.io/badge/live-Railway-0B0D0E?logo=railway&logoColor=white)](https://moneymap-ai-production.up.railway.app/)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/built%20with-Streamlit-ff4b4b.svg)](https://streamlit.io)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/badge/code%20style-ruff-black.svg)](https://github.com/astral-sh/ruff)
+
+**Live:** [https://moneymap-ai-production.up.railway.app/](https://moneymap-ai-production.up.railway.app/)
 
 > **Where should your next dollar go?**
 > Upload your finances, connect live macro data, and get a ranked, data-driven answer in minutes — no spreadsheets, no guesswork.
@@ -92,6 +95,7 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ## Table of Contents
 
+- [Live app (live)](https://moneymap-ai-production.up.railway.app/)
 - [Overview](#overview)
 - [Recommended Workflow](#recommended-workflow)
 - [API Keys](#api-keys)
@@ -116,7 +120,7 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 MoneyMap AI is an end-to-end personal and business financial intelligence tool built on Streamlit. It ingests your transaction history (CSV or XLSX), pulls live macroeconomic data from FRED, BLS, U.S. Treasury, and Alpha Vantage, runs Monte Carlo simulations and scenario analysis, and outputs a ranked allocation recommendation with plain-English reasoning.
 
-All computation happens **locally on your machine** — your data never leaves your environment.
+**Try it live:** [MoneyMap AI(https://moneymap-ai-production.up.railway.app/) — no install required. When you **run the app yourself** (see [Quick Start](#quick-start)), your session runs on your own machine unless you deploy it to a host you control.
 
 ---
 
