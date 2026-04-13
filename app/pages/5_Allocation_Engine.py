@@ -19,12 +19,10 @@ import plotly.graph_objects as go
 
 from page_guards import require_mode, require_raw_data, require_scenarios
 from src.analysis.allocation_engine import (
-    PERSONAL_OPTIONS,
-    BUSINESS_OPTIONS,
     recommend,
     explain_recommendation,
 )
-from src.utils.formatting import fmt_currency, fmt_percent
+from src.utils.formatting import fmt_percent
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(

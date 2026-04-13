@@ -14,9 +14,8 @@ report_to_pdf_bytes(report)    -> bytes
 from __future__ import annotations
 
 import re
-import unicodedata
 from datetime import datetime
-from typing import Any, Dict, List, Optional
+from typing import Optional
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Helpers
@@ -297,7 +296,7 @@ def report_to_markdown(report: dict) -> str:
     a(f"| Unemployment | {_fmtf(ms.get('current_unemployment'))}% |")
     a(f"| Yield Spread (10Y-2Y) | {ms.get('yield_spread', 'N/A'):+.2f}% |"
       if isinstance(ms.get("yield_spread"), (int, float)) else
-      f"| Yield Spread (10Y-2Y) | N/A |")
+      "| Yield Spread (10Y-2Y) | N/A |")
     sp500 = ms.get("sp500_ytd_return")
     a(f"| S&P 500 YTD | {_fmtf(sp500)}% |" if sp500 is not None else "| S&P 500 YTD | N/A |")
     a(f"| Macro Regime | **{reg}** |")
@@ -469,7 +468,7 @@ def report_to_pdf_bytes(report: dict) -> bytes:
     GREEN  = (63,  185,  80)
     RED    = (248,  81,  73)
     GOLD   = (227, 179,  65)
-    WHITE  = (255, 255, 255)
+    _WHITE  = (255, 255, 255)  # reserved
 
     # ── Setup ──────────────────────────────────────────────────────────────────
     pdf = FPDF()

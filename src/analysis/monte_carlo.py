@@ -18,10 +18,9 @@ build_fan_chart(paths, title, x_label, y_label)              -> go.Figure
 """
 from __future__ import annotations
 
-from typing import Dict, List, Tuple
+from typing import Dict, List
 
 import numpy as np
-import pandas as pd
 import plotly.graph_objects as go
 
 

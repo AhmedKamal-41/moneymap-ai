@@ -53,7 +53,7 @@ context = {
 """
 from __future__ import annotations
 
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Tuple
 
 # ── Option identifiers ─────────────────────────────────────────────────────────
 
@@ -512,7 +512,7 @@ def _score_marketing(fh: dict, macro: dict, regime: str, _risk: str) -> Tuple[fl
         parts.append(f"margin {margin*100:.0f}% is thin — marketing ROI must be tracked tightly")
     else:
         score -= 10
-        parts.append(f"margin below 10% — fix unit economics before scaling marketing spend")
+        parts.append("margin below 10% — fix unit economics before scaling marketing spend")
 
     if runway is None or float(runway) > 9.0:
         score += 15
@@ -602,7 +602,6 @@ def _score_hiring(fh: dict, macro: dict, regime: str, _risk: str) -> Tuple[float
 
 def _score_inventory(fh: dict, macro: dict, regime: str, _risk: str) -> Tuple[float, str]:
     margin   = float(fh.get("gross_margin_pct", 0.0) or 0.0)
-    runway   = fh.get("runway_months")
     rev_grow = float(fh.get("revenue_growth", 0.0) or 0.0)
     cash_bal = float(fh.get("cash_balance", 0.0) or 0.0)
     monthly_exp = float(fh.get("monthly_expenses", 1.0) or 1.0)

@@ -18,7 +18,6 @@ import streamlit as st
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import pandas as pd
-import numpy as np
 
 from page_guards import require_mode, require_raw_data
 from src.analysis.market_analyzer import (
@@ -26,7 +25,6 @@ from src.analysis.market_analyzer import (
     regime_description,
     rate_environment_advice,
 )
-from src.utils.formatting import fmt_percent, fmt_number
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(

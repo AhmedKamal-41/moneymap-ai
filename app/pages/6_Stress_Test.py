@@ -16,7 +16,6 @@ if _app_dir not in sys.path:
 
 import streamlit as st
 import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 
 from page_guards import require_mode, require_raw_data, require_scenarios
 from src.analysis.stress_test import (
@@ -618,12 +617,16 @@ with table_col:
     def _cell_color(val: float, lo: float, hi: float, invert: bool = False) -> str:
         """Map a value to green/yellow/red based on thresholds."""
         if invert:
-            if val < lo:   return C["green"]
-            if val < hi:   return C["yellow"]
+            if val < lo:
+                return C["green"]
+            if val < hi:
+                return C["yellow"]
             return C["red"]
         else:
-            if val > hi:   return C["green"]
-            if val > lo:   return C["yellow"]
+            if val > hi:
+                return C["green"]
+            if val > lo:
+                return C["yellow"]
             return C["red"]
 
     tbl = (

@@ -27,7 +27,7 @@ from src.analysis.scenario_engine import (
     sensitivity_analysis,
     SCENARIO_META,
 )
-from src.utils.formatting import fmt_currency, fmt_percent
+from src.utils.formatting import fmt_currency
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(

@@ -20,7 +20,6 @@ from __future__ import annotations
 import logging
 from typing import Any, Dict, Optional
 
-import numpy as np
 import pandas as pd
 
 log = logging.getLogger(__name__)
@@ -127,7 +126,6 @@ def _classify_regime(
     4. cautious          — everything else
     """
     inf   = inflation    if inflation    is not None else 3.0
-    ff    = fed_rate     if fed_rate     is not None else 5.0
     unem  = unemployment if unemployment is not None else 4.0
     spread= yield_spread if yield_spread is not None else 0.5
 
