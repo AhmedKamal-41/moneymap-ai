@@ -11,36 +11,6 @@
 
 ---
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Screenshots](#screenshots)
-- [Features](#features)
-- [Recommended Workflow](#recommended-workflow)
-- [Quick Start](#quick-start)
-- [API Keys](#api-keys)
-- [CSV Format](#csv-format)
-- [Statistical Methods](#statistical-methods)
-- [Project Structure](#project-structure)
-- [Running Tests](#running-tests)
-- [Known Limitations](#known-limitations)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [Acknowledgements](#acknowledgements)
-- [Citation](#citation)
-- [Disclaimer](#disclaimer)
-- [License](#license)
-
----
-
-## Overview
-
-MoneyMap AI is an end-to-end personal and business financial intelligence tool built on Streamlit. It ingests your transaction history (CSV or XLSX), pulls live macroeconomic data from FRED, BLS, U.S. Treasury, and Alpha Vantage, runs Monte Carlo simulations and scenario analysis, and outputs a ranked allocation recommendation with plain-English reasoning.
-
-All computation happens **locally on your machine** — your data never leaves your environment.
-
----
-
 ## Screenshots
 
 > Drop your screenshots into `docs/screenshots/` and update the paths below.
@@ -71,28 +41,6 @@ All computation happens **locally on your machine** — your data never leaves y
 | 🎯 **Allocation Engine** | Ranked, scored recommendations with plain-English reasoning |
 | 🛡️ **Stress Test** | Historical-style shocks (2008 GFC, COVID-19, inflation shock, mild recession, rate spike) + resilience score |
 | 📄 **Report Center** | Download a polished PDF or Markdown report of the full analysis |
-
----
-
-## Recommended Workflow
-
-Use the numbered Streamlit pages in order so session state and guards stay consistent:
-
-```
-🧭 Home  →  🔗 Connect Data  →  🩺 Financial Health  →  📡 Market & Economy
-→  🧪 Scenario Lab  →  🎯 Allocation Engine  →  🛡️ Stress Test  →  📄 Report Center
-```
-
-### Session guards (`app/page_guards.py`)
-
-Pages call helpers that show a **Go to …** button and stop rendering when prerequisites are missing, instead of failing mid-page:
-
-| Helper | Prerequisite enforced |
-|--------|-----------------------|
-| `require_mode()` | Any page after Home — user must pick personal or business |
-| `require_raw_data()` | Scenario Lab — strict `raw_df` from Connect Data |
-| `require_scenarios()` | Allocation, Stress, Report — scenario outputs from the lab |
-| `require_allocation()` | Report — allocation result present |
 
 ---
 
@@ -142,6 +90,58 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ---
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Recommended Workflow](#recommended-workflow)
+- [API Keys](#api-keys)
+- [CSV Format](#csv-format)
+- [Statistical Methods](#statistical-methods)
+- [Data Sources](#data-sources)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Scripts](#scripts)
+- [Running Tests](#running-tests)
+- [Known Limitations](#known-limitations)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
+- [Citation](#citation)
+- [Disclaimer](#disclaimer)
+- [License](#license)
+
+---
+
+## Overview
+
+MoneyMap AI is an end-to-end personal and business financial intelligence tool built on Streamlit. It ingests your transaction history (CSV or XLSX), pulls live macroeconomic data from FRED, BLS, U.S. Treasury, and Alpha Vantage, runs Monte Carlo simulations and scenario analysis, and outputs a ranked allocation recommendation with plain-English reasoning.
+
+All computation happens **locally on your machine** — your data never leaves your environment.
+
+---
+
+## Recommended Workflow
+
+Use the numbered Streamlit pages in order so session state and guards stay consistent:
+
+```
+🧭 Home  →  🔗 Connect Data  →  🩺 Financial Health  →  📡 Market & Economy
+→  🧪 Scenario Lab  →  🎯 Allocation Engine  →  🛡️ Stress Test  →  📄 Report Center
+```
+
+### Session guards (`app/page_guards.py`)
+
+Pages call helpers that show a **Go to …** button and stop rendering when prerequisites are missing, instead of failing mid-page:
+
+| Helper | Prerequisite enforced |
+|--------|-----------------------|
+| `require_mode()` | Any page after Home — user must pick personal or business |
+| `require_raw_data()` | Scenario Lab — strict `raw_df` from Connect Data |
+| `require_scenarios()` | Allocation, Stress, Report — scenario outputs from the lab |
+| `require_allocation()` | Report — allocation result present |
+
+---
+
 ## API Keys
 
 Copy `.env.example` to `.env` and fill in the values:
@@ -160,7 +160,7 @@ BLS_API_KEY=your_key_here          # optional
 
 ### Synthetic fallbacks
 
-Without keys (or on any network/API error), all clients return **deterministic synthetic series** and emit `UserWarning`s. The full app remains functional — results simply reflect simulated rather than live data. See [API behaviour](#api-behaviour-synthetic-fallbacks) below.
+Without keys (or on any network/API error), all clients return **deterministic synthetic series** and emit `UserWarning`s. The full app remains functional — results simply reflect simulated rather than live data.
 
 ---
 
@@ -234,7 +234,7 @@ Warnings are issued with `warnings.warn(..., UserWarning)` so developers notice 
 | Macro data | [fredapi](https://github.com/mortada/fredapi) ≥ 0.5, FRED REST API |
 | XLSX support | [openpyxl](https://openpyxl.readthedocs.io) ≥ 3.1 |
 | PDF export | [fpdf2](https://pyfpdf.github.io/fpdf2/) ≥ 2.7 |
-| Tests | [pytest](https://pytest.org) ≥ 8.2 |
+| Tests | [pytest](https://pytest.org) ≥ 8.2, pytest-cov |
 | Linting | [ruff](https://github.com/astral-sh/ruff) |
 | CI | GitHub Actions |
 
@@ -299,6 +299,9 @@ moneymap-ai/
 │       └── ci.yml                  # CI: pytest + ruff on push/PR
 ├── .streamlit/
 │   └── config.toml                 # Dark theme configuration
+├── scripts/
+│   ├── gen_samples.py              # Generates sample_personal.csv and sample_business.csv
+│   └── setup_repo.py               # Prints recommended GitHub topics after first push
 ├── .env.example                    # API key template
 ├── requirements.txt                # App + test dependencies
 ├── requirements-notebooks.txt      # Additional notebook dependencies
@@ -307,10 +310,19 @@ moneymap-ai/
 
 ---
 
+## Scripts
+
+| Script | Description |
+|--------|-------------|
+| `scripts/gen_samples.py` | Generates `data/sample/sample_personal.csv` and `data/sample/sample_business.csv` with 12 months of realistic seeded transactions. Run from the project root: `python scripts/gen_samples.py` |
+| `scripts/setup_repo.py` | One-time helper that prints the recommended GitHub repository topics to paste into Settings → Topics after your first push. Run: `python scripts/setup_repo.py` |
+
+---
+
 ## Running Tests
 
 ```bash
-pytest tests/ -v
+pytest tests/ -v --cov=src --cov-report=term-missing
 ```
 
 The suite covers six analysis modules plus offline API fallback smoke checks (no live network calls):

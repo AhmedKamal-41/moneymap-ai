@@ -42,7 +42,7 @@ jobs:
           ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY || 'ci_dummy_key' }}
           BLS_API_KEY: ${{ secrets.BLS_API_KEY || 'ci_dummy_key' }}
         run: |
-          pytest tests/ -v --tb=short
+          pytest tests/ -v --tb=short --cov=src --cov-report=term-missing
 
   lint:
     name: Lint — ruff
