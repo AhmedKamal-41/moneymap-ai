@@ -15,9 +15,6 @@
 ---
 
 ## Screenshots
-
-Add app screenshots under `docs/screenshots/` so the table below shows real UI â€” see [`docs/screenshots/README.md`](docs/screenshots/README.md).
-
 | Home | Financial Health |
 |------|-----------------|
 | ![Home](docs/screenshots/home.png) | ![Financial Health](docs/screenshots/financial_health.png) |
@@ -29,7 +26,6 @@ Add app screenshots under `docs/screenshots/` so the table below shows real UI â
 | Allocation Engine | Stress Test |
 |------------------|-------------|
 | ![Allocation](docs/screenshots/allocation_engine.png) | ![Stress Test](docs/screenshots/stress_test.png) |
-
 ---
 
 ## Features
