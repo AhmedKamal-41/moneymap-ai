@@ -1,0 +1,489 @@
+date,category,amount,description
+2024-01-01,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-01-01,rent,-1800.0,Monthly Rent - Apartment 4B
+2024-01-02,subscriptions,-15.99,Netflix Standard Plan
+2024-01-02,subscriptions,-9.99,Spotify Premium
+2024-01-02,subscriptions,-14.99,Hulu (No Ads)
+2024-01-02,subscriptions,-14.99,Disney+ Bundle
+2024-01-02,subscriptions,-14.99,Amazon Prime Monthly
+2024-01-02,subscriptions,-2.99,iCloud 200GB
+2024-01-02,subscriptions,-24.99,Planet Fitness Gym Membership
+2024-01-02,subscriptions,-10.99,YouTube Premium
+2024-01-04,groceries,-53.81,Whole Foods Market
+2024-01-07,groceries,-135.94,Sprouts Farmers Market
+2024-01-07,dining,-44.13,Local Coffee Shop
+2024-01-07,dining,-14.32,Korean BBQ Spot
+2024-01-08,dining,-12.52,Starbucks Coffee
+2024-01-08,dining,-26.66,Local Coffee Shop
+2024-01-08,dining,-60.57,Korean BBQ Spot
+2024-01-08,utilities,-83.38,ConEdison Electric Bill
+2024-01-08,utilities,-89.99,Xfinity Internet - 400Mbps
+2024-01-08,utilities,-45.0,Verizon Wireless - Individual Plan
+2024-01-08,other,-17.11,Post Office - Shipping
+2024-01-10,transport,-47.35,Metro Card Reload
+2024-01-10,debt_payment,-350.0,Navient Student Loan Payment
+2024-01-10,debt_payment,-293.65,Chase Sapphire Reserve CC Payment
+2024-01-12,groceries,-125.51,Kroger
+2024-01-12,transport,-34.86,Metro Card Reload
+2024-01-13,transport,-48.95,BP Gas Station
+2024-01-14,groceries,-77.32,Costco Wholesale
+2024-01-15,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-01-16,savings,-400.0,Transfer to High-Yield Savings (HYSA)
+2024-01-20,transport,-28.64,Uber Ride
+2024-01-20,shopping,-165.09,Old Navy
+2024-01-23,shopping,-45.84,IKEA - Home Furnishings
+2024-01-24,transport,-61.83,ExxonMobil Gas
+2024-01-24,transport,-59.7,BP Gas Station
+2024-01-24,shopping,-112.96,Etsy - Handmade Items
+2024-01-26,groceries,-49.13,Publix
+2024-01-26,healthcare,-35.74,Vision Exam + New Lenses
+2024-01-28,dining,-30.14,Pizza Delivery
+2024-02-01,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-02-01,rent,-1800.0,Monthly Rent - Apartment 4B
+2024-02-02,groceries,-107.82,Kroger
+2024-02-02,dining,-34.98,Sushi Spot
+2024-02-02,subscriptions,-15.99,Netflix Standard Plan
+2024-02-02,subscriptions,-9.99,Spotify Premium
+2024-02-02,subscriptions,-14.99,Hulu (No Ads)
+2024-02-02,subscriptions,-14.99,Disney+ Bundle
+2024-02-02,subscriptions,-14.99,Amazon Prime Monthly
+2024-02-02,subscriptions,-2.99,iCloud 200GB
+2024-02-02,subscriptions,-24.99,Planet Fitness Gym Membership
+2024-02-02,subscriptions,-10.99,YouTube Premium
+2024-02-03,groceries,-97.44,Sprouts Farmers Market
+2024-02-03,groceries,-126.26,Whole Foods Market
+2024-02-04,groceries,-137.45,Wegmans
+2024-02-05,dining,-36.27,Panera Bread
+2024-02-07,dining,-20.74,Olive Garden
+2024-02-07,transport,-34.28,Parking - Downtown Garage
+2024-02-08,utilities,-81.94,ConEdison Electric Bill
+2024-02-08,utilities,-89.99,Xfinity Internet - 400Mbps
+2024-02-08,utilities,-45.0,Verizon Wireless - Individual Plan
+2024-02-09,income,146.12,Freelance Side Income
+2024-02-09,shopping,-178.46,Macy's Department Store
+2024-02-10,debt_payment,-350.0,Navient Student Loan Payment
+2024-02-10,debt_payment,-139.46,Chase Sapphire Reserve CC Payment
+2024-02-11,shopping,-173.01,Best Buy Electronics
+2024-02-14,dining,-35.54,Starbucks Coffee
+2024-02-14,shopping,-168.28,Etsy - Handmade Items
+2024-02-15,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-02-15,dining,-24.74,Dunkin' Donuts
+2024-02-15,dining,-62.14,Mexican Taqueria
+2024-02-16,savings,-400.0,Transfer to High-Yield Savings (HYSA)
+2024-02-18,transport,-56.19,Chevron Station
+2024-02-19,groceries,-63.27,Whole Foods Market
+2024-02-20,transport,-42.16,Parking - Downtown Garage
+2024-02-22,dining,-51.78,Sweetgreen
+2024-02-22,transport,-51.65,Lyft Ride
+2024-02-25,other,-41.35,Laundromat
+2024-02-26,dining,-65.73,Uber Eats Order
+2024-03-01,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-03-01,rent,-1800.0,Monthly Rent - Apartment 4B
+2024-03-02,dining,-51.69,Mexican Taqueria
+2024-03-02,subscriptions,-15.99,Netflix Standard Plan
+2024-03-02,subscriptions,-9.99,Spotify Premium
+2024-03-02,subscriptions,-14.99,Hulu (No Ads)
+2024-03-02,subscriptions,-14.99,Disney+ Bundle
+2024-03-02,subscriptions,-14.99,Amazon Prime Monthly
+2024-03-02,subscriptions,-2.99,iCloud 200GB
+2024-03-02,subscriptions,-24.99,Planet Fitness Gym Membership
+2024-03-02,subscriptions,-10.99,YouTube Premium
+2024-03-04,income,262.71,Freelance Side Income
+2024-03-06,groceries,-80.17,Safeway
+2024-03-06,dining,-35.23,Local Coffee Shop
+2024-03-06,dining,-33.39,Local Italian Bistro
+2024-03-06,shopping,-106.73,Wayfair - Home Decor
+2024-03-07,dining,-65.93,Starbucks Coffee
+2024-03-07,transport,-34.78,Public Transit Monthly Pass
+2024-03-08,utilities,-111.82,ConEdison Electric Bill
+2024-03-08,utilities,-89.99,Xfinity Internet - 400Mbps
+2024-03-08,utilities,-45.0,Verizon Wireless - Individual Plan
+2024-03-09,groceries,-88.07,Sprouts Farmers Market
+2024-03-10,debt_payment,-350.0,Navient Student Loan Payment
+2024-03-10,debt_payment,-124.62,Chase Sapphire Reserve CC Payment
+2024-03-10,debt_payment,-180.0,Discover Card Minimum Payment
+2024-03-10,other,-61.61,Post Office - Shipping
+2024-03-10,other,-44.12,ATM Withdrawal
+2024-03-11,shopping,-23.22,Gap - Seasonal Sale
+2024-03-15,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-03-15,transport,-35.43,ExxonMobil Gas
+2024-03-16,savings,-400.0,Transfer to High-Yield Savings (HYSA)
+2024-03-17,transport,-37.08,Lyft Ride
+2024-03-19,shopping,-129.08,Apple Store - Accessories
+2024-03-20,groceries,-105.32,ALDI
+2024-03-20,transport,-46.7,Car Wash Express
+2024-03-22,groceries,-70.36,Whole Foods Market
+2024-03-22,transport,-16.49,BP Gas Station
+2024-03-26,healthcare,-25.34,Vision Exam + New Lenses
+2024-03-27,dining,-8.99,Dunkin' Donuts
+2024-03-30,dining,-58.49,Uber Eats Order
+2024-04-01,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-04-01,rent,-1800.0,Monthly Rent - Apartment 4B
+2024-04-02,subscriptions,-15.99,Netflix Standard Plan
+2024-04-02,subscriptions,-9.99,Spotify Premium
+2024-04-02,subscriptions,-14.99,Hulu (No Ads)
+2024-04-02,subscriptions,-14.99,Disney+ Bundle
+2024-04-02,subscriptions,-14.99,Amazon Prime Monthly
+2024-04-02,subscriptions,-2.99,iCloud 200GB
+2024-04-02,subscriptions,-24.99,Planet Fitness Gym Membership
+2024-04-02,subscriptions,-10.99,YouTube Premium
+2024-04-02,subscriptions,-9.99,Apple TV+
+2024-04-03,shopping,-61.93,REI - Outdoor Gear
+2024-04-05,transport,-13.29,ExxonMobil Gas
+2024-04-06,dining,-11.81,Pizza Delivery
+2024-04-07,dining,-27.88,Starbucks Coffee
+2024-04-08,groceries,-60.52,Wegmans
+2024-04-08,groceries,-110.04,Trader Joe's
+2024-04-08,groceries,-123.07,Sprouts Farmers Market
+2024-04-08,utilities,-106.02,ConEdison Electric Bill
+2024-04-08,utilities,-89.99,Xfinity Internet - 400Mbps
+2024-04-08,utilities,-45.0,Verizon Wireless - Individual Plan
+2024-04-09,groceries,-139.0,ALDI
+2024-04-10,dining,-36.34,Mexican Taqueria
+2024-04-10,debt_payment,-350.0,Navient Student Loan Payment
+2024-04-10,debt_payment,-223.64,Chase Sapphire Reserve CC Payment
+2024-04-11,shopping,-68.9,Etsy - Handmade Items
+2024-04-13,groceries,-70.44,Safeway
+2024-04-15,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-04-15,transport,-33.97,Public Transit Monthly Pass
+2024-04-16,transport,-44.4,Uber Ride
+2024-04-16,savings,-400.0,Transfer to High-Yield Savings (HYSA)
+2024-04-18,shopping,-19.85,TJ Maxx - Clothing
+2024-04-19,dining,-57.29,Starbucks Coffee
+2024-04-19,dining,-39.94,Pizza Delivery
+2024-04-20,savings,-150.0,Roth IRA Contribution
+2024-04-21,transport,-44.82,Uber Ride
+2024-04-22,dining,-56.13,Shake Shack
+2024-04-22,transport,-28.45,ExxonMobil Gas
+2024-04-24,dining,-29.01,Starbucks Coffee
+2024-04-25,other,-22.47,Books - Barnes & Noble
+2024-04-27,transport,-62.46,ExxonMobil Gas
+2024-04-30,dining,-60.53,Olive Garden
+2024-05-01,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-05-01,rent,-1800.0,Monthly Rent - Apartment 4B
+2024-05-02,subscriptions,-15.99,Netflix Standard Plan
+2024-05-02,subscriptions,-9.99,Spotify Premium
+2024-05-02,subscriptions,-14.99,Hulu (No Ads)
+2024-05-02,subscriptions,-14.99,Disney+ Bundle
+2024-05-02,subscriptions,-14.99,Amazon Prime Monthly
+2024-05-02,subscriptions,-2.99,iCloud 200GB
+2024-05-02,subscriptions,-24.99,Planet Fitness Gym Membership
+2024-05-02,subscriptions,-10.99,YouTube Premium
+2024-05-02,subscriptions,-9.99,Apple TV+
+2024-05-04,dining,-71.09,Uber Eats Order
+2024-05-05,groceries,-70.16,Safeway
+2024-05-06,other,-43.12,Birthday Gift
+2024-05-08,utilities,-86.99,ConEdison Electric Bill
+2024-05-08,utilities,-89.99,Xfinity Internet - 400Mbps
+2024-05-08,utilities,-45.0,Verizon Wireless - Individual Plan
+2024-05-10,debt_payment,-350.0,Navient Student Loan Payment
+2024-05-10,debt_payment,-283.44,Chase Sapphire Reserve CC Payment
+2024-05-11,dining,-70.63,DoorDash Delivery
+2024-05-13,transport,-24.93,Shell Gas Station
+2024-05-14,income,88.58,Freelance Side Income
+2024-05-14,dining,-52.04,Pizza Delivery
+2024-05-14,healthcare,-106.0,CVS Pharmacy - Prescription Fill
+2024-05-15,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-05-16,savings,-400.0,Transfer to High-Yield Savings (HYSA)
+2024-05-18,shopping,-155.99,Old Navy
+2024-05-19,dining,-47.83,Dunkin' Donuts
+2024-05-21,groceries,-92.43,Publix
+2024-05-21,shopping,-147.56,Lowe's - Tools
+2024-05-22,dining,-65.74,Local Italian Bistro
+2024-05-22,other,-14.87,Books - Barnes & Noble
+2024-05-23,transport,-48.91,Car Wash Express
+2024-05-24,groceries,-98.33,Kroger
+2024-05-24,groceries,-100.54,Wegmans
+2024-05-25,transport,-34.53,Lyft Ride
+2024-05-26,shopping,-21.14,Nordstrom Rack
+2024-05-28,dining,-20.45,Dunkin' Donuts
+2024-05-29,groceries,-113.2,Safeway
+2024-05-29,transport,-51.8,Uber Ride
+2024-06-01,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-06-01,rent,-1800.0,Monthly Rent - Apartment 4B
+2024-06-01,dining,-38.71,Sweetgreen
+2024-06-02,subscriptions,-15.99,Netflix Standard Plan
+2024-06-02,subscriptions,-9.99,Spotify Premium
+2024-06-02,subscriptions,-14.99,Hulu (No Ads)
+2024-06-02,subscriptions,-14.99,Disney+ Bundle
+2024-06-02,subscriptions,-14.99,Amazon Prime Monthly
+2024-06-02,subscriptions,-2.99,iCloud 200GB
+2024-06-02,subscriptions,-24.99,Planet Fitness Gym Membership
+2024-06-02,subscriptions,-10.99,YouTube Premium
+2024-06-02,subscriptions,-9.99,Apple TV+
+2024-06-03,dining,-44.02,Pizza Delivery
+2024-06-08,income,216.45,Freelance Side Income
+2024-06-08,groceries,-139.75,Costco Wholesale
+2024-06-08,dining,-25.8,Shake Shack
+2024-06-08,transport,-60.63,Uber Ride
+2024-06-08,utilities,-113.47,ConEdison Electric Bill
+2024-06-08,utilities,-89.99,Xfinity Internet - 400Mbps
+2024-06-08,utilities,-45.0,Verizon Wireless - Individual Plan
+2024-06-09,dining,-16.87,Grubhub - Burger Night
+2024-06-10,debt_payment,-350.0,Navient Student Loan Payment
+2024-06-10,debt_payment,-187.56,Chase Sapphire Reserve CC Payment
+2024-06-11,dining,-70.24,Dunkin' Donuts
+2024-06-12,dining,-27.09,Olive Garden
+2024-06-13,shopping,-143.91,Nordstrom Rack
+2024-06-14,healthcare,-45.0,Annual Physical - Dr. Chen
+2024-06-14,other,-37.03,Car Registration Fee
+2024-06-15,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-06-15,transport,-19.07,Car Wash Express
+2024-06-16,savings,-400.0,Transfer to High-Yield Savings (HYSA)
+2024-06-17,groceries,-91.88,Trader Joe's
+2024-06-17,transport,-36.62,BP Gas Station
+2024-06-20,transport,-28.82,Car Wash Express
+2024-06-20,transport,-55.2,BP Gas Station
+2024-06-22,dining,-51.25,Olive Garden
+2024-06-22,transport,-40.15,BP Gas Station
+2024-06-22,shopping,-123.84,Old Navy
+2024-06-23,debt_payment,-180.0,Discover Card Minimum Payment
+2024-06-26,groceries,-109.65,Whole Foods Market
+2024-06-28,groceries,-55.42,Costco Wholesale
+2024-06-29,dining,-12.61,Uber Eats Order
+2024-07-01,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-07-01,rent,-1800.0,Monthly Rent - Apartment 4B
+2024-07-01,dining,-52.75,Mexican Taqueria
+2024-07-02,subscriptions,-15.99,Netflix Standard Plan
+2024-07-02,subscriptions,-9.99,Spotify Premium
+2024-07-02,subscriptions,-14.99,Hulu (No Ads)
+2024-07-02,subscriptions,-14.99,Disney+ Bundle
+2024-07-02,subscriptions,-14.99,Amazon Prime Monthly
+2024-07-02,subscriptions,-2.99,iCloud 200GB
+2024-07-02,subscriptions,-24.99,Planet Fitness Gym Membership
+2024-07-02,subscriptions,-10.99,YouTube Premium
+2024-07-02,subscriptions,-9.99,Apple TV+
+2024-07-02,subscriptions,-17.0,NYT + The Atlantic Bundle
+2024-07-04,dining,-67.61,Mexican Taqueria
+2024-07-05,dining,-26.25,DoorDash Delivery
+2024-07-07,income,273.33,Freelance Side Income
+2024-07-08,utilities,-117.18,ConEdison Electric Bill
+2024-07-08,utilities,-89.99,Xfinity Internet - 400Mbps
+2024-07-08,utilities,-45.0,Verizon Wireless - Individual Plan
+2024-07-10,dining,-70.43,Sweetgreen
+2024-07-10,debt_payment,-350.0,Navient Student Loan Payment
+2024-07-10,debt_payment,-155.7,Chase Sapphire Reserve CC Payment
+2024-07-10,shopping,-63.76,Nike.com - Running Gear
+2024-07-10,other,-11.96,Haircut - Local Barber
+2024-07-12,shopping,-145.92,Etsy - Handmade Items
+2024-07-13,groceries,-101.61,Publix
+2024-07-14,shopping,-199.39,Gap - Seasonal Sale
+2024-07-15,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-07-15,transport,-25.74,ExxonMobil Gas
+2024-07-16,transport,-45.22,Chevron Station
+2024-07-16,savings,-400.0,Transfer to High-Yield Savings (HYSA)
+2024-07-17,groceries,-68.88,ALDI
+2024-07-17,dining,-40.73,Starbucks Coffee
+2024-07-17,healthcare,-104.18,CVS Pharmacy - Prescription Fill
+2024-07-20,dining,-73.92,Pizza Delivery
+2024-07-22,groceries,-129.05,Kroger
+2024-07-23,dining,-30.97,Panera Bread
+2024-07-23,other,-26.96,Laundromat
+2024-07-27,transport,-60.06,Car Wash Express
+2024-07-27,transport,-45.8,BP Gas Station
+2024-07-28,groceries,-134.53,Whole Foods Market
+2024-07-29,transport,-20.44,Car Wash Express
+2024-07-31,dining,-66.83,Panera Bread
+2024-08-01,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-08-01,rent,-1800.0,Monthly Rent - Apartment 4B
+2024-08-02,dining,-8.24,Shake Shack
+2024-08-02,subscriptions,-15.99,Netflix Standard Plan
+2024-08-02,subscriptions,-9.99,Spotify Premium
+2024-08-02,subscriptions,-14.99,Hulu (No Ads)
+2024-08-02,subscriptions,-14.99,Disney+ Bundle
+2024-08-02,subscriptions,-14.99,Amazon Prime Monthly
+2024-08-02,subscriptions,-2.99,iCloud 200GB
+2024-08-02,subscriptions,-24.99,Planet Fitness Gym Membership
+2024-08-02,subscriptions,-10.99,YouTube Premium
+2024-08-02,subscriptions,-9.99,Apple TV+
+2024-08-02,subscriptions,-17.0,NYT + The Atlantic Bundle
+2024-08-03,transport,-49.82,ExxonMobil Gas
+2024-08-03,transport,-19.33,ExxonMobil Gas
+2024-08-03,transport,-33.99,Metro Card Reload
+2024-08-06,groceries,-88.1,Kroger
+2024-08-07,shopping,-57.38,Old Navy
+2024-08-08,utilities,-84.23,ConEdison Electric Bill
+2024-08-08,utilities,-89.99,Xfinity Internet - 400Mbps
+2024-08-08,utilities,-45.0,Verizon Wireless - Individual Plan
+2024-08-09,transport,-29.8,BP Gas Station
+2024-08-10,debt_payment,-350.0,Navient Student Loan Payment
+2024-08-10,debt_payment,-226.58,Chase Sapphire Reserve CC Payment
+2024-08-11,groceries,-55.6,Wegmans
+2024-08-11,shopping,-39.76,IKEA - Home Furnishings
+2024-08-13,transport,-48.78,ExxonMobil Gas
+2024-08-15,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-08-16,savings,-400.0,Transfer to High-Yield Savings (HYSA)
+2024-08-17,groceries,-117.39,ALDI
+2024-08-18,dining,-8.65,Dunkin' Donuts
+2024-08-20,savings,-150.0,Roth IRA Contribution
+2024-08-21,dining,-36.38,Panera Bread
+2024-08-21,dining,-73.65,Local Ramen Shop
+2024-08-22,other,-24.01,Haircut - Local Barber
+2024-08-24,dining,-37.6,Korean BBQ Spot
+2024-08-27,groceries,-105.7,Safeway
+2024-08-30,groceries,-55.11,Kroger
+2024-08-31,dining,-67.17,Shake Shack
+2024-09-01,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-09-01,rent,-1800.0,Monthly Rent - Apartment 4B
+2024-09-02,subscriptions,-15.99,Netflix Standard Plan
+2024-09-02,subscriptions,-9.99,Spotify Premium
+2024-09-02,subscriptions,-14.99,Hulu (No Ads)
+2024-09-02,subscriptions,-14.99,Disney+ Bundle
+2024-09-02,subscriptions,-14.99,Amazon Prime Monthly
+2024-09-02,subscriptions,-2.99,iCloud 200GB
+2024-09-02,subscriptions,-24.99,Planet Fitness Gym Membership
+2024-09-02,subscriptions,-10.99,YouTube Premium
+2024-09-02,subscriptions,-9.99,Apple TV+
+2024-09-02,subscriptions,-17.0,NYT + The Atlantic Bundle
+2024-09-05,dining,-36.8,Starbucks Coffee
+2024-09-08,utilities,-108.4,ConEdison Electric Bill
+2024-09-08,utilities,-89.99,Xfinity Internet - 400Mbps
+2024-09-08,utilities,-45.0,Verizon Wireless - Individual Plan
+2024-09-08,debt_payment,-180.0,Discover Card Minimum Payment
+2024-09-10,dining,-32.43,Starbucks Coffee
+2024-09-10,transport,-51.93,Parking - Downtown Garage
+2024-09-10,debt_payment,-350.0,Navient Student Loan Payment
+2024-09-10,debt_payment,-269.5,Chase Sapphire Reserve CC Payment
+2024-09-12,groceries,-117.44,ALDI
+2024-09-13,transport,-37.28,Metro Card Reload
+2024-09-14,other,-16.89,Books - Barnes & Noble
+2024-09-15,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-09-15,transport,-34.04,ExxonMobil Gas
+2024-09-16,savings,-400.0,Transfer to High-Yield Savings (HYSA)
+2024-09-18,transport,-51.62,BP Gas Station
+2024-09-20,groceries,-75.79,Trader Joe's
+2024-09-20,shopping,-69.51,Nike.com - Running Gear
+2024-09-22,dining,-14.89,Mexican Taqueria
+2024-09-23,transport,-13.04,Public Transit Monthly Pass
+2024-09-24,shopping,-125.3,H&M Clothing
+2024-09-25,groceries,-132.63,Trader Joe's
+2024-09-27,dining,-32.74,Mexican Taqueria
+2024-09-27,transport,-34.27,Public Transit Monthly Pass
+2024-09-27,shopping,-53.33,Macy's Department Store
+2024-09-28,healthcare,-74.61,Dental Cleaning Copay
+2024-09-29,dining,-31.97,Uber Eats Order
+2024-09-29,dining,-66.61,Shake Shack
+2024-10-01,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-10-01,rent,-1800.0,Monthly Rent - Apartment 4B
+2024-10-02,subscriptions,-15.99,Netflix Standard Plan
+2024-10-02,subscriptions,-9.99,Spotify Premium
+2024-10-02,subscriptions,-14.99,Hulu (No Ads)
+2024-10-02,subscriptions,-14.99,Disney+ Bundle
+2024-10-02,subscriptions,-14.99,Amazon Prime Monthly
+2024-10-02,subscriptions,-2.99,iCloud 200GB
+2024-10-02,subscriptions,-24.99,Planet Fitness Gym Membership
+2024-10-02,subscriptions,-10.99,YouTube Premium
+2024-10-02,subscriptions,-9.99,Apple TV+
+2024-10-02,subscriptions,-17.0,NYT + The Atlantic Bundle
+2024-10-03,groceries,-114.53,Whole Foods Market
+2024-10-06,shopping,-73.01,Home Depot - Hardware
+2024-10-08,groceries,-50.5,Whole Foods Market
+2024-10-08,dining,-21.37,Olive Garden
+2024-10-08,utilities,-116.14,ConEdison Electric Bill
+2024-10-08,utilities,-89.99,Xfinity Internet - 400Mbps
+2024-10-08,utilities,-45.0,Verizon Wireless - Individual Plan
+2024-10-09,dining,-18.67,Sweetgreen
+2024-10-09,transport,-35.1,Shell Gas Station
+2024-10-09,shopping,-26.28,Target - Household Items
+2024-10-10,debt_payment,-350.0,Navient Student Loan Payment
+2024-10-10,debt_payment,-138.34,Chase Sapphire Reserve CC Payment
+2024-10-13,dining,-66.44,Local Coffee Shop
+2024-10-13,transport,-29.81,Parking - Downtown Garage
+2024-10-15,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-10-16,savings,-400.0,Transfer to High-Yield Savings (HYSA)
+2024-10-18,transport,-13.43,Parking - Downtown Garage
+2024-10-18,shopping,-71.17,Home Depot - Hardware
+2024-10-24,dining,-69.94,Korean BBQ Spot
+2024-10-24,transport,-20.75,Car Wash Express
+2024-10-26,dining,-52.88,Uber Eats Order
+2024-10-28,dining,-18.89,Local Ramen Shop
+2024-10-29,dining,-35.62,Local Ramen Shop
+2024-10-29,transport,-23.69,ExxonMobil Gas
+2024-10-30,groceries,-79.48,Kroger
+2024-10-30,transport,-18.76,Public Transit Monthly Pass
+2024-10-30,other,-25.94,Birthday Gift
+2024-11-01,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-11-01,rent,-1800.0,Monthly Rent - Apartment 4B
+2024-11-02,subscriptions,-15.99,Netflix Standard Plan
+2024-11-02,subscriptions,-9.99,Spotify Premium
+2024-11-02,subscriptions,-14.99,Hulu (No Ads)
+2024-11-02,subscriptions,-14.99,Disney+ Bundle
+2024-11-02,subscriptions,-14.99,Amazon Prime Monthly
+2024-11-02,subscriptions,-2.99,iCloud 200GB
+2024-11-02,subscriptions,-24.99,Planet Fitness Gym Membership
+2024-11-02,subscriptions,-10.99,YouTube Premium
+2024-11-02,subscriptions,-9.99,Apple TV+
+2024-11-02,subscriptions,-17.0,NYT + The Atlantic Bundle
+2024-11-02,other,-19.96,Haircut - Local Barber
+2024-11-04,healthcare,-76.36,Doctor Office Visit Copay
+2024-11-04,shopping,-176.83,Nordstrom Rack
+2024-11-06,transport,-14.67,Parking - Downtown Garage
+2024-11-06,shopping,-193.72,Etsy - Handmade Items
+2024-11-08,dining,-9.59,DoorDash Delivery
+2024-11-08,utilities,-81.3,ConEdison Electric Bill
+2024-11-08,utilities,-89.99,Xfinity Internet - 400Mbps
+2024-11-08,utilities,-45.0,Verizon Wireless - Individual Plan
+2024-11-09,transport,-51.86,Parking - Downtown Garage
+2024-11-10,dining,-62.98,Uber Eats Order
+2024-11-10,debt_payment,-350.0,Navient Student Loan Payment
+2024-11-10,debt_payment,-259.05,Chase Sapphire Reserve CC Payment
+2024-11-11,dining,-70.93,Sweetgreen
+2024-11-11,transport,-23.22,Metro Card Reload
+2024-11-11,transport,-52.35,Parking - Downtown Garage
+2024-11-13,dining,-29.99,Dunkin' Donuts
+2024-11-13,dining,-53.53,Mexican Taqueria
+2024-11-15,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-11-16,savings,-400.0,Transfer to High-Yield Savings (HYSA)
+2024-11-16,shopping,-105.13,Gap - Seasonal Sale
+2024-11-18,groceries,-60.69,ALDI
+2024-11-19,dining,-72.49,Panera Bread
+2024-11-19,transport,-47.14,Uber Ride
+2024-11-21,transport,-34.72,Car Wash Express
+2024-11-23,groceries,-74.61,Sprouts Farmers Market
+2024-11-25,groceries,-56.95,Publix
+2024-11-25,dining,-26.7,Pizza Delivery
+2024-11-28,income,81.75,Freelance Side Income
+2024-11-28,groceries,-102.63,Safeway
+2024-11-29,dining,-73.02,Local Ramen Shop
+2024-11-30,groceries,-96.23,Safeway
+2024-12-01,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-12-01,rent,-1800.0,Monthly Rent - Apartment 4B
+2024-12-01,groceries,-100.89,Safeway
+2024-12-01,dining,-42.83,Mexican Taqueria
+2024-12-02,subscriptions,-15.99,Netflix Standard Plan
+2024-12-02,subscriptions,-9.99,Spotify Premium
+2024-12-02,subscriptions,-14.99,Hulu (No Ads)
+2024-12-02,subscriptions,-14.99,Disney+ Bundle
+2024-12-02,subscriptions,-14.99,Amazon Prime Monthly
+2024-12-02,subscriptions,-2.99,iCloud 200GB
+2024-12-02,subscriptions,-24.99,Planet Fitness Gym Membership
+2024-12-02,subscriptions,-10.99,YouTube Premium
+2024-12-02,subscriptions,-9.99,Apple TV+
+2024-12-02,subscriptions,-17.0,NYT + The Atlantic Bundle
+2024-12-04,dining,-47.97,Grubhub - Burger Night
+2024-12-04,shopping,-167.63,Apple Store - Accessories
+2024-12-05,shopping,-45.15,Nordstrom Rack
+2024-12-07,transport,-56.48,Public Transit Monthly Pass
+2024-12-08,groceries,-66.35,Sprouts Farmers Market
+2024-12-08,transport,-46.46,Shell Gas Station
+2024-12-08,utilities,-120.06,ConEdison Electric Bill
+2024-12-08,utilities,-89.99,Xfinity Internet - 400Mbps
+2024-12-08,utilities,-45.0,Verizon Wireless - Individual Plan
+2024-12-09,dining,-10.97,Korean BBQ Spot
+2024-12-10,debt_payment,-350.0,Navient Student Loan Payment
+2024-12-10,debt_payment,-273.05,Chase Sapphire Reserve CC Payment
+2024-12-13,dining,-68.27,DoorDash Delivery
+2024-12-15,income,2750.0,Direct Deposit - Payroll (Bi-Weekly)
+2024-12-15,other,-17.46,Haircut - Local Barber
+2024-12-16,savings,-400.0,Transfer to High-Yield Savings (HYSA)
+2024-12-16,shopping,-31.48,Target - Household Items
+2024-12-19,groceries,-65.92,Whole Foods Market
+2024-12-20,dining,-73.94,Sweetgreen
+2024-12-20,debt_payment,-180.0,Discover Card Minimum Payment
+2024-12-20,savings,-150.0,Roth IRA Contribution
+2024-12-23,other,-34.15,Haircut - Local Barber
+2024-12-24,dining,-60.69,Korean BBQ Spot
+2024-12-24,transport,-40.59,Metro Card Reload
+2024-12-25,transport,-13.64,ExxonMobil Gas
+2024-12-27,transport,-16.34,Shell Gas Station
+2024-12-29,groceries,-94.17,Whole Foods Market

@@ -1,0 +1,6 @@
+# Optional: install for notebooks that pull Yahoo Finance / FRED via pandas-datareader.
+# Usage: pip install -r requirements-notebooks.txt
+-r requirements.txt
+yfinance>=0.2.0
+pandas-datareader>=0.10.0
+nbformat>=5.9.0

@@ -1,0 +1,192 @@
+date,type,category,amount,description
+2024-01-01,revenue,revenue,28442.8,SaaS Subscription Revenue - Monthly ARR
+2024-01-01,expense,payroll,-7416.71,Engineering Team Payroll
+2024-01-01,expense,payroll,-3775.78,Sales & Marketing Team Payroll
+2024-01-01,expense,payroll,-2292.44,Operations & Support Payroll
+2024-01-01,expense,rent,-3200.0,Office Lease - Suite 400
+2024-01-02,expense,software,-628.57,Salesforce CRM + HubSpot
+2024-01-02,expense,software,-514.29,GitHub / Datadog / Slack / Zoom
+2024-01-05,expense,cogs,-4759.13,AWS Cloud Infrastructure
+2024-01-09,revenue,revenue,6205.33,Professional Services Revenue
+2024-01-10,expense,marketing,-2724.42,Google & LinkedIn Ads
+2024-01-11,expense,other,-320.56,Business Insurance Premium
+2024-01-15,expense,other,-665.31,CPA Firm - Monthly Bookkeeping
+2024-01-15,expense,debt_payment,-1834.86,SBA Loan Monthly Repayment
+2024-01-18,expense,inventory,-418.75,Office Hardware & Supplies
+2024-01-20,expense,marketing,-1816.28,Content Marketing & SEO Agency
+2024-01-31,expense,cogs,-3172.76,Stripe Payment Processing Fees
+2024-02-01,revenue,revenue,32894.05,SaaS Subscription Revenue - Monthly ARR
+2024-02-01,expense,payroll,-9117.52,Engineering Team Payroll
+2024-02-01,expense,payroll,-4641.64,Sales & Marketing Team Payroll
+2024-02-01,expense,payroll,-2818.14,Operations & Support Payroll
+2024-02-01,expense,rent,-3200.0,Office Lease - Suite 400
+2024-02-02,expense,software,-637.07,Salesforce CRM + HubSpot
+2024-02-02,expense,software,-521.24,GitHub / Datadog / Slack / Zoom
+2024-02-05,expense,cogs,-4867.26,AWS Cloud Infrastructure
+2024-02-10,expense,marketing,-2179.02,Google & LinkedIn Ads
+2024-02-10,expense,inventory,-475.19,Swag & Marketing Materials
+2024-02-12,expense,other,-275.94,Business Insurance Premium
+2024-02-14,revenue,revenue,6547.21,Professional Services Revenue
+2024-02-15,expense,other,-611.72,CPA Firm - Monthly Bookkeeping
+2024-02-20,expense,marketing,-1452.68,Content Marketing & SEO Agency
+2024-02-23,revenue,revenue,3289.42,Enterprise Deal / New Customer License
+2024-02-29,expense,cogs,-3244.84,Stripe Payment Processing Fees
+2024-03-01,revenue,revenue,32465.91,SaaS Subscription Revenue - Monthly ARR
+2024-03-01,expense,payroll,-8428.32,Engineering Team Payroll
+2024-03-01,expense,payroll,-4290.78,Sales & Marketing Team Payroll
+2024-03-01,expense,payroll,-2605.12,Operations & Support Payroll
+2024-03-01,expense,rent,-3200.0,Office Lease - Suite 400
+2024-03-02,expense,software,-632.58,Salesforce CRM + HubSpot
+2024-03-02,expense,software,-517.56,GitHub / Datadog / Slack / Zoom
+2024-03-05,expense,cogs,-4849.55,AWS Cloud Infrastructure
+2024-03-10,expense,marketing,-2880.68,Google & LinkedIn Ads
+2024-03-12,expense,other,-200.07,Business Insurance Premium
+2024-03-15,revenue,revenue,7194.96,Professional Services Revenue
+2024-03-15,expense,other,-586.38,CPA Firm - Monthly Bookkeeping
+2024-03-15,expense,debt_payment,-2635.71,SBA Loan Monthly Repayment
+2024-03-20,expense,marketing,-1920.45,Content Marketing & SEO Agency
+2024-03-20,expense,inventory,-1787.73,Peripherals & Equipment
+2024-03-24,revenue,revenue,4156.12,Enterprise Deal / New Customer License
+2024-03-31,expense,cogs,-3233.03,Stripe Payment Processing Fees
+2024-04-01,revenue,revenue,31934.72,SaaS Subscription Revenue - Monthly ARR
+2024-04-01,expense,payroll,-8447.76,Engineering Team Payroll
+2024-04-01,expense,payroll,-4300.68,Sales & Marketing Team Payroll
+2024-04-01,expense,payroll,-2611.13,Operations & Support Payroll
+2024-04-01,expense,rent,-3200.0,Office Lease - Suite 400
+2024-04-02,expense,software,-959.56,Salesforce CRM + HubSpot
+2024-04-02,expense,software,-785.1,GitHub / Datadog / Slack / Zoom
+2024-04-05,expense,cogs,-4960.83,AWS Cloud Infrastructure
+2024-04-07,expense,inventory,-1905.96,Peripherals & Equipment
+2024-04-10,expense,marketing,-2553.64,Google & LinkedIn Ads
+2024-04-12,expense,other,-190.31,Business Insurance Premium
+2024-04-15,expense,other,-709.11,CPA Firm - Monthly Bookkeeping
+2024-04-18,revenue,revenue,5214.32,Professional Services Revenue
+2024-04-20,expense,marketing,-1702.42,Content Marketing & SEO Agency
+2024-04-25,revenue,revenue,4459.73,Enterprise Deal / New Customer License
+2024-04-30,expense,cogs,-3307.22,Stripe Payment Processing Fees
+2024-05-01,revenue,revenue,36917.87,SaaS Subscription Revenue - Monthly ARR
+2024-05-01,expense,payroll,-10241.74,Engineering Team Payroll
+2024-05-01,expense,payroll,-5213.98,Sales & Marketing Team Payroll
+2024-05-01,expense,payroll,-3165.63,Operations & Support Payroll
+2024-05-01,expense,rent,-3200.0,Office Lease - Suite 400
+2024-05-02,expense,software,-836.31,Salesforce CRM + HubSpot
+2024-05-02,expense,software,-684.25,GitHub / Datadog / Slack / Zoom
+2024-05-05,expense,cogs,-5508.8,AWS Cloud Infrastructure
+2024-05-10,expense,marketing,-3342.16,Google & LinkedIn Ads
+2024-05-12,revenue,revenue,8018.06,Professional Services Revenue
+2024-05-15,expense,other,-648.11,CPA Firm - Monthly Bookkeeping
+2024-05-15,expense,debt_payment,-1871.42,SBA Loan Monthly Repayment
+2024-05-16,expense,other,-310.6,Business Insurance Premium
+2024-05-20,expense,marketing,-2228.1,Content Marketing & SEO Agency
+2024-05-31,expense,cogs,-3672.54,Stripe Payment Processing Fees
+2024-06-01,revenue,revenue,36503.75,SaaS Subscription Revenue - Monthly ARR
+2024-06-01,expense,payroll,-10116.89,Engineering Team Payroll
+2024-06-01,expense,payroll,-5150.42,Sales & Marketing Team Payroll
+2024-06-01,expense,payroll,-3127.04,Operations & Support Payroll
+2024-06-01,expense,rent,-3200.0,Office Lease - Suite 400
+2024-06-02,expense,software,-865.85,Salesforce CRM + HubSpot
+2024-06-02,expense,software,-708.43,GitHub / Datadog / Slack / Zoom
+2024-06-05,expense,cogs,-6084.97,AWS Cloud Infrastructure
+2024-06-10,expense,marketing,-2584.67,Google & LinkedIn Ads
+2024-06-14,expense,other,-219.43,Business Insurance Premium
+2024-06-15,revenue,revenue,5900.59,Professional Services Revenue
+2024-06-15,expense,other,-524.9,CPA Firm - Monthly Bookkeeping
+2024-06-15,expense,debt_payment,-2227.44,SBA Loan Monthly Repayment
+2024-06-17,expense,inventory,-1928.14,Swag & Marketing Materials
+2024-06-19,revenue,revenue,3886.64,Enterprise Deal / New Customer License
+2024-06-20,expense,marketing,-1723.11,Content Marketing & SEO Agency
+2024-06-30,expense,cogs,-4056.65,Stripe Payment Processing Fees
+2024-07-01,revenue,revenue,36949.28,SaaS Subscription Revenue - Monthly ARR
+2024-07-01,expense,payroll,-10970.43,Engineering Team Payroll
+2024-07-01,expense,payroll,-5584.94,Sales & Marketing Team Payroll
+2024-07-01,expense,payroll,-3390.86,Operations & Support Payroll
+2024-07-01,expense,rent,-3200.0,Office Lease - Suite 400
+2024-07-02,expense,software,-1031.67,Salesforce CRM + HubSpot
+2024-07-02,expense,software,-844.1,GitHub / Datadog / Slack / Zoom
+2024-07-05,expense,cogs,-6255.86,AWS Cloud Infrastructure
+2024-07-10,expense,marketing,-3031.81,Google & LinkedIn Ads
+2024-07-14,revenue,revenue,6038.6,Professional Services Revenue
+2024-07-15,expense,other,-516.2,CPA Firm - Monthly Bookkeeping
+2024-07-15,expense,debt_payment,-2222.28,SBA Loan Monthly Repayment
+2024-07-20,expense,marketing,-2021.2,Content Marketing & SEO Agency
+2024-07-22,expense,other,-247.67,Business Insurance Premium
+2024-07-25,revenue,revenue,5463.06,Enterprise Deal / New Customer License
+2024-07-31,expense,cogs,-4170.57,Stripe Payment Processing Fees
+2024-08-01,revenue,revenue,36927.58,SaaS Subscription Revenue - Monthly ARR
+2024-08-01,expense,payroll,-9611.52,Engineering Team Payroll
+2024-08-01,expense,payroll,-4893.14,Sales & Marketing Team Payroll
+2024-08-01,expense,payroll,-2970.83,Operations & Support Payroll
+2024-08-01,expense,rent,-3200.0,Office Lease - Suite 400
+2024-08-02,expense,software,-1221.19,Salesforce CRM + HubSpot
+2024-08-02,expense,software,-999.15,GitHub / Datadog / Slack / Zoom
+2024-08-05,expense,cogs,-6139.28,AWS Cloud Infrastructure
+2024-08-10,expense,marketing,-3073.55,Google & LinkedIn Ads
+2024-08-15,revenue,revenue,9041.1,Professional Services Revenue
+2024-08-15,expense,other,-521.09,CPA Firm - Monthly Bookkeeping
+2024-08-15,expense,debt_payment,-1878.39,SBA Loan Monthly Repayment
+2024-08-16,revenue,revenue,4402.63,Enterprise Deal / New Customer License
+2024-08-16,expense,other,-284.39,Business Insurance Premium
+2024-08-20,expense,marketing,-2049.04,Content Marketing & SEO Agency
+2024-08-31,expense,cogs,-4092.86,Stripe Payment Processing Fees
+2024-09-01,revenue,revenue,38332.79,SaaS Subscription Revenue - Monthly ARR
+2024-09-01,expense,payroll,-10487.67,Engineering Team Payroll
+2024-09-01,expense,payroll,-5339.18,Sales & Marketing Team Payroll
+2024-09-01,expense,payroll,-3241.64,Operations & Support Payroll
+2024-09-01,expense,rent,-3200.0,Office Lease - Suite 400
+2024-09-02,expense,software,-905.24,Salesforce CRM + HubSpot
+2024-09-02,expense,software,-740.65,GitHub / Datadog / Slack / Zoom
+2024-09-05,expense,cogs,-5687.07,AWS Cloud Infrastructure
+2024-09-10,expense,marketing,-2606.98,Google & LinkedIn Ads
+2024-09-10,expense,inventory,-1177.77,Swag & Marketing Materials
+2024-09-15,expense,other,-785.3,CPA Firm - Monthly Bookkeeping
+2024-09-20,expense,marketing,-1737.98,Content Marketing & SEO Agency
+2024-09-21,revenue,revenue,6581.48,Professional Services Revenue
+2024-09-21,expense,other,-204.92,Business Insurance Premium
+2024-09-30,revenue,revenue,7142.39,Enterprise Deal / New Customer License
+2024-09-30,expense,cogs,-3791.38,Stripe Payment Processing Fees
+2024-10-01,revenue,revenue,38184.14,SaaS Subscription Revenue - Monthly ARR
+2024-10-01,expense,payroll,-10113.93,Engineering Team Payroll
+2024-10-01,expense,payroll,-5148.91,Sales & Marketing Team Payroll
+2024-10-01,expense,payroll,-3126.12,Operations & Support Payroll
+2024-10-01,expense,rent,-3200.0,Office Lease - Suite 400
+2024-10-02,expense,software,-996.07,Salesforce CRM + HubSpot
+2024-10-02,expense,software,-814.97,GitHub / Datadog / Slack / Zoom
+2024-10-05,expense,cogs,-5689.83,AWS Cloud Infrastructure
+2024-10-10,expense,marketing,-3379.41,Google & LinkedIn Ads
+2024-10-15,expense,other,-598.9,CPA Firm - Monthly Bookkeeping
+2024-10-17,expense,other,-284.25,Business Insurance Premium
+2024-10-20,expense,marketing,-2252.94,Content Marketing & SEO Agency
+2024-10-21,revenue,revenue,9078.11,Professional Services Revenue
+2024-10-31,revenue,revenue,6483.64,Enterprise Deal / New Customer License
+2024-10-31,expense,cogs,-3793.22,Stripe Payment Processing Fees
+2024-11-01,revenue,revenue,42457.58,SaaS Subscription Revenue - Monthly ARR
+2024-11-01,expense,payroll,-11284.89,Engineering Team Payroll
+2024-11-01,expense,payroll,-5745.03,Sales & Marketing Team Payroll
+2024-11-01,expense,payroll,-3488.06,Operations & Support Payroll
+2024-11-01,expense,rent,-3200.0,Office Lease - Suite 400
+2024-11-02,expense,software,-816.34,Salesforce CRM + HubSpot
+2024-11-02,expense,software,-667.92,GitHub / Datadog / Slack / Zoom
+2024-11-05,expense,cogs,-6987.59,AWS Cloud Infrastructure
+2024-11-10,expense,marketing,-3280.37,Google & LinkedIn Ads
+2024-11-13,expense,inventory,-1102.81,Swag & Marketing Materials
+2024-11-14,revenue,revenue,7796.46,Professional Services Revenue
+2024-11-15,expense,other,-707.76,CPA Firm - Monthly Bookkeeping
+2024-11-20,expense,marketing,-2186.91,Content Marketing & SEO Agency
+2024-11-21,expense,other,-256.03,Business Insurance Premium
+2024-11-30,expense,cogs,-4658.4,Stripe Payment Processing Fees
+2024-12-01,revenue,revenue,47831.58,SaaS Subscription Revenue - Monthly ARR
+2024-12-01,expense,payroll,-11922.16,Engineering Team Payroll
+2024-12-01,expense,payroll,-6069.46,Sales & Marketing Team Payroll
+2024-12-01,expense,payroll,-3685.03,Operations & Support Payroll
+2024-12-01,expense,rent,-3200.0,Office Lease - Suite 400
+2024-12-02,expense,software,-1415.0,Salesforce CRM + HubSpot
+2024-12-02,expense,software,-1157.72,GitHub / Datadog / Slack / Zoom
+2024-12-05,expense,cogs,-7567.49,AWS Cloud Infrastructure
+2024-12-10,expense,marketing,-4283.33,Google & LinkedIn Ads
+2024-12-11,revenue,revenue,8730.55,Professional Services Revenue
+2024-12-12,expense,other,-321.89,Business Insurance Premium
+2024-12-15,expense,other,-695.89,CPA Firm - Monthly Bookkeeping
+2024-12-15,expense,debt_payment,-2082.8,SBA Loan Monthly Repayment
+2024-12-20,expense,marketing,-2855.55,Content Marketing & SEO Agency
+2024-12-25,revenue,revenue,6006.26,Enterprise Deal / New Customer License
+2024-12-31,expense,cogs,-5045.0,Stripe Payment Processing Fees
