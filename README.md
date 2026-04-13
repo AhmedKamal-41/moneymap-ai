@@ -13,7 +13,7 @@
 
 ## Screenshots
 
-> Drop your screenshots into `docs/screenshots/` and update the paths below.
+Add app screenshots under `docs/screenshots/` so the table below shows real UI — see [`docs/screenshots/README.md`](docs/screenshots/README.md).
 
 | Home | Financial Health |
 |------|-----------------|
@@ -284,16 +284,21 @@ moneymap-ai/
 │   ├── test_allocation_engine.py   # Scoring rules, recommend(), explain_recommendation()
 │   ├── test_api_sample_fallbacks.py# FRED/BLS/Treasury/Alpha Vantage synthetic fallbacks
 │   ├── test_data_loader.py         # CSV parsing, validation, summary computation
+│   ├── test_financial_health.py    # Personal/business health + anomalies
+│   ├── test_market_analyzer.py     # Macro summary, regime, rate advice
 │   ├── test_monte_carlo.py         # simulate_portfolio(), simulate_cash_flow()
 │   ├── test_portfolio_stats.py     # Sharpe ratio, beta, max drawdown
+│   ├── test_report_builder.py      # Markdown/PDF report pipeline
 │   ├── test_risk_metrics.py        # VaR, CVaR, confidence bands
+│   ├── test_scenario_engine.py     # Scenario builder + sensitivity table
+│   ├── test_sensitivity.py         # Tornado chart / OAT sensitivity
 │   └── test_stress_test.py         # SCENARIOS dict, run_stress_test(), resilience_score()
 ├── notebooks/
 │   ├── 01_macro_eda.ipynb          # 20-year macro EDA and regime classification
 │   ├── 02_allocation_model_dev.ipynb # Allocation model development and backtesting
 │   └── 03_backtest_analysis.ipynb  # Strategy backtest analysis
 ├── docs/
-│   └── screenshots/                # Place app screenshots here
+│   └── screenshots/                # README images (placeholders or real captures)
 ├── .github/
 │   └── workflows/
 │       └── ci.yml                  # CI: pytest + ruff on push/PR
@@ -301,8 +306,11 @@ moneymap-ai/
 │   └── config.toml                 # Dark theme configuration
 ├── scripts/
 │   ├── gen_samples.py              # Generates sample_personal.csv and sample_business.csv
+│   ├── generate_screenshot_placeholders.py
 │   └── setup_repo.py               # Prints recommended GitHub topics after first push
+├── .pre-commit-config.yaml         # Optional: ruff on commit
 ├── .env.example                    # API key template
+├── pyproject.toml                  # Ruff + pytest settings, optional [dev] extras
 ├── requirements.txt                # App + test dependencies
 ├── requirements-notebooks.txt      # Additional notebook dependencies
 └── LICENSE
@@ -315,25 +323,33 @@ moneymap-ai/
 | Script | Description |
 |--------|-------------|
 | `scripts/gen_samples.py` | Generates `data/sample/sample_personal.csv` and `data/sample/sample_business.csv` with 12 months of realistic seeded transactions. Run from the project root: `python scripts/gen_samples.py` |
+| `scripts/generate_screenshot_placeholders.py` | Writes placeholder PNGs into `docs/screenshots/` for README previews (`pip install pillow` first). |
 | `scripts/setup_repo.py` | One-time helper that prints the recommended GitHub repository topics to paste into Settings → Topics after your first push. Run: `python scripts/setup_repo.py` |
 
 ---
 
 ## Running Tests
 
+Default options live in `pyproject.toml` (`[tool.pytest.ini_options]`). With coverage:
+
 ```bash
-pytest tests/ -v --cov=src --cov-report=term-missing
+pytest --cov=src --cov-report=term-missing
 ```
 
-The suite covers six analysis modules plus offline API fallback smoke checks (no live network calls):
+The suite covers analysis modules plus offline API fallback smoke checks (no live network calls):
 
 ```
 tests/test_allocation_engine.py    — scoring rules, recommend(), explain_recommendation()
 tests/test_api_sample_fallbacks.py — FRED/BLS/Treasury/Alpha Vantage synthetic fallbacks
 tests/test_data_loader.py          — CSV parsing, validation, summary computation
+tests/test_financial_health.py     — analyze_personal_health, analyze_business_health, detect_anomalies
+tests/test_market_analyzer.py      — get_macro_summary, regime_description, rate_environment_advice
 tests/test_monte_carlo.py          — simulate_portfolio(), simulate_cash_flow(), summarize_simulations()
 tests/test_portfolio_stats.py      — Sharpe ratio, beta, max drawdown, annualised return
+tests/test_report_builder.py       — build_report, report_to_markdown, report_to_pdf_bytes
 tests/test_risk_metrics.py         — VaR, CVaR, confidence bands
+tests/test_scenario_engine.py      — build_scenarios, sensitivity_analysis
+tests/test_sensitivity.py          — run_sensitivity (tornado chart data)
 tests/test_stress_test.py          — SCENARIOS dict, run_stress_test(), resilience_score()
 ```
 
@@ -375,14 +391,16 @@ python -m py_compile app/page_guards.py
 Contributions, bug reports, and feature requests are welcome.
 
 1. **Fork** the repository and create a feature branch (`git checkout -b feat/your-feature`)
-2. Make your changes — run `pytest tests/ -v` and `ruff check src/ app/ tests/` before committing
+2. Make your changes — run `pytest` and `ruff check src app tests` before committing (settings in `pyproject.toml`)
 3. **Open a pull request** against `main` with a clear description of what changed and why
+
+Optional: install [pre-commit](https://pre-commit.com) and run `pre-commit install` so **ruff** runs on every commit (see `.pre-commit-config.yaml`).
 
 Please keep pull requests focused. One feature or fix per PR makes review faster.
 
 ### Code style
 
-- Formatter / linter: **ruff** (config in `ci.yml`; E501 and E402 ignored)
+- Formatter / linter: **ruff** (config in `pyproject.toml`; E501 and E402 ignored)
 - All analysis functions should be pure (no Streamlit calls) and covered by a test
 - New API clients must implement a `_sample_*` synthetic fallback
 

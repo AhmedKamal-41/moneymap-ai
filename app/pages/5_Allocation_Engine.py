@@ -667,6 +667,12 @@ with st.expander("🌐  What if the economy changes? — Regime sensitivity", ex
         )
         score_color = (C["green"]  if row["top_score"] >= 70 else
                        C["yellow"] if row["top_score"] >= 40 else C["red"])
+        second_suffix = ""
+        if row["second_label"]:
+            second_suffix = (
+                f"&nbsp;<span style='color:{C['muted']}; font-size:0.78rem'>"
+                f"({row['second_score']})</span>"
+            )
         table_html += (
             f"<tr style='{row_bg}'>"
             f"<td style='font-weight:700; color:{row['color']}; white-space:nowrap'>"
@@ -674,9 +680,7 @@ with st.expander("🌐  What if the economy changes? — Regime sensitivity", ex
             f"<td style='font-weight:600; color:{C['text']}'>{row['top_label']}</td>"
             f"<td style='font-weight:800; color:{score_color}; text-align:center'>"
             f"{row['top_score']}</td>"
-            f"<td style='color:{C['muted']}'>{row['second_label']}"
-            f"{'&nbsp;<span style=\"color:' + C['muted'] + '; font-size:0.78rem\">(' + str(row['second_score']) + ')</span>' if row['second_label'] else ''}"
-            f"</td>"
+            f"<td style='color:{C['muted']}'>{row['second_label']}{second_suffix}</td>"
             f"<td style='color:{C['muted']}; font-size:0.82rem; max-width:280px'>"
             f"{row['top_reason'][:120]}{'…' if len(row['top_reason']) > 120 else ''}</td>"
             f"</tr>"
